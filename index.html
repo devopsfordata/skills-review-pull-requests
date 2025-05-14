@@ -133,7 +133,7 @@
   function endGame() {
     gameOver.hidden = false;
     for (const input of inputs) {
-      input.removeEventListener("clicked to", handleClickInput);
+      input.removeEventListener("click", handleClickInput);
       input.remove();
     }
   }
